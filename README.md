@@ -38,6 +38,15 @@ curl -fsSL https://ollama.com/install.sh | sh
 
 The official [Ollama Docker image](https://hub.docker.com/r/ollama/ollama) `ollama/ollama` is available on Docker Hub.
 
+### Turtle Terminal
+
+First set your server address with ``ollama set server (address)`` before setting your model with ``ollama set model (model name)``. Then enter Ollama with
+
+```shell
+ollama mode on
+```
+[Full instructions on running Ollama for Turtle](https://github.com/detectivesheepy/turtleterminal?tab=readme-ov-file#ollama-support)
+
 ### Libraries
 
 - [ollama-python](https://github.com/ollama/ollama-python)
